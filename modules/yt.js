@@ -25,7 +25,7 @@ exports.yt = async function yt(client, message) {
         const args = commands.split(" ");
         var opts = {
             maxResults: 1,
-            key: "AIzaSyARsUt7mpnrM__x-uA95qkKAArXop6j2Bo",
+            key: "",
         };
         const pesq = args.slice(1).join(" ");
         search(pesq, opts, async function (err, results) {
